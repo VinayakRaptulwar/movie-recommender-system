@@ -1,2 +1,2 @@
 # movie-recommender-system
-this is project for recommending the movies according to you choice
+A Streamlit-based Movie Recommender System that suggests similar movies using machine learning.
