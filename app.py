@@ -35,7 +35,7 @@ movies = pickle.load(open('movies.pkl', 'rb'))
 
 if not os.path.exists("similarity.pkl"):
     file_id = "PASTE_YOUR_FILE_ID_HERE"
-    url = f"https://drive.google.com/uc?id={file_id}"
+    url = f"https://drive.google.com/uc?id=1uM1wtrTh8JxzU91nf9q5UY3kIGzRYobU"
     gdown.download(url, "similarity.pkl", quiet=False)
 similarity = pickle.load(open('similarity.pkl','rb'))
 
